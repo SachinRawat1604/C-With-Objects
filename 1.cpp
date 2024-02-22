@@ -4,13 +4,12 @@
 using namespace std;
 
 int main(){
-    
-    int number;
 
-    number = 0;
+    //number = 0;
+    int number;
     
-    /*cout << "Enter the number:- " <<endl; 
-    cin >> number;*/   // User will assign the value.S
+    cout << "Enter the number:- " <<endl; 
+    cin >> number;   // User will assign the value.S
 
     if(number >= 0){
         cout << number << "is a Positive Number." <<endl;
